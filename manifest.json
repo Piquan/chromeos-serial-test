@@ -1,0 +1,13 @@
+{
+  "name": "Serial test",
+  "description": "Test serial I/O",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["serial"],
+  "icons": { "16": "serial-port-16.png", "128": "serial-port-128.png" }
+}

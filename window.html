@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%; width: 100%">
   <head>
       <title>Serial test</title>
   </head>
-  <body>
-      <div style="position: fixed; top: 10px; right: 10px"><button id="go">Go!</button></div>
-      <pre id="c"></pre>
+  <body style="height: 100%; width: 100%; margin-top: 0px">
+      <div style="position: fixed; top: 10px; right: 10px; text-align: right">
+          <button id="go">Go</button>
+          <br />Clear on restart<input type="checkbox" id="clear_on_restart" value="1" />
+      </div>
+      <pre id="c" style="overflow: auto; height: 100%; width: 100%; margin-top: 0px"></pre>
       <script src="main.js"></script>
   </body>
 </html>
